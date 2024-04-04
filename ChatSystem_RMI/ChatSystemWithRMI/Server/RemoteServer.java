@@ -58,7 +58,7 @@ public class RemoteServer implements Server {
     @Override
     public void isDisconnected(ClientCallBack clientCallBack) throws RemoteException {
         allClients.remove(clientCallBack);
-        logger.log("An user has logged in.");
+        logger.log("An user has logged off.");
         sendClientTOChatServer(this.allClients);
         chatServer.isDisconnected(clientCallBack);
     }
