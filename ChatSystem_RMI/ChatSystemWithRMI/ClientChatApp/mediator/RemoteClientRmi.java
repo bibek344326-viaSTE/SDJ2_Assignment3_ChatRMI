@@ -3,16 +3,11 @@ package ClientChatApp.mediator;
 import shared.Message;
 import shared.PrivateMessage;
 import shared.User;
-import shared.clientInterfaces.ClientCallBack;
-import shared.serverInterfaces.Server;
-import shared.utils.Request;
+import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
+import Server.mediator.serverInterfaces.Server;
 
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.net.Socket;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;

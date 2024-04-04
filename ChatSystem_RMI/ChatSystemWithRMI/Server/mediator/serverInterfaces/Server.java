@@ -1,6 +1,6 @@
-package shared.serverInterfaces;
+package Server.mediator.serverInterfaces;
 
-import shared.clientInterfaces.ClientCallBack;
+import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
 
 import java.rmi.AlreadyBoundException;
 import java.rmi.Remote;

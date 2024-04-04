@@ -4,8 +4,8 @@ import Server.model.ChatHandler;
 import Server.model.LoginHandler;
 import shared.Message;
 import shared.PrivateMessage;
-import shared.clientInterfaces.ClientCallBack;
-import shared.serverInterfaces.ChatServer;
+import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
+import Server.mediator.serverInterfaces.ChatServer;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
