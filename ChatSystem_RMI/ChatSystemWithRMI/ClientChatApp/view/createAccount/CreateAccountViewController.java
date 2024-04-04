@@ -43,7 +43,6 @@ public class CreateAccountViewController implements ViewController {
     @FXML
     private void onSignUp() {
         viewModel.onSignup(username.getText(), password.getText(), confirm.getText());
-
     }
 
 }

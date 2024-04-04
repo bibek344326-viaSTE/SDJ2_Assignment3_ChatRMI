@@ -1,5 +1,6 @@
 package Server.mediator.login;
 
+import Server.model.Logger;
 import Server.model.LoginHandler;
 import shared.User;
 import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
@@ -10,6 +11,7 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.List;
 
 public class RemoteLoginServer implements LoginServer {
+    private Logger logger = Logger.getInstance();
     private List<ClientCallBack> allClients;
 
     private LoginHandler loginHandler;

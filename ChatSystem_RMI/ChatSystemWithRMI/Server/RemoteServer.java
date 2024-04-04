@@ -18,7 +18,8 @@ public class RemoteServer implements Server {
     private LoginServer loginServer;
     private ChatServer chatServer;
     private List<ClientCallBack> allClients;
-    private Logger logger;
+    private Logger logger = Logger.getInstance();
+
 
     public RemoteServer(LoginServer loginServer, ChatServer chatServer) throws AlreadyBoundException, RemoteException {
         this.loginServer = loginServer;
@@ -41,10 +42,10 @@ public class RemoteServer implements Server {
     @Override
     public void registerClient(ClientCallBack client) throws RemoteException {
         allClients.add(client);
+        logger.log("An user has logged in.");
         sendClientTOLoginServer(allClients);
         sendClientTOChatServer(allClients);
         System.out.println("A client is added");
-        logger.log(client.getUsername()+"has logged in.");
     }
 
     @Override
@@ -57,9 +58,9 @@ public class RemoteServer implements Server {
     @Override
     public void isDisconnected(ClientCallBack clientCallBack) throws RemoteException {
         allClients.remove(clientCallBack);
+        logger.log("An user has logged in.");
         sendClientTOChatServer(this.allClients);
         chatServer.isDisconnected(clientCallBack);
-        logger.log(clientCallBack.getUsername()+"has logged out.");
     }
 
     private void sendClientTOLoginServer(List<ClientCallBack> allClients) throws RemoteException {
