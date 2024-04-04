@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0"
+         prefWidth="452.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/16"
+         xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientChatApp.view.chat.ChatViewController">
+    <tabs>
+        <Tab text="Global Chat">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="402.0" prefWidth="325.0">
+                    <children>
+                        <ListView fx:id="listView" prefHeight="321.0" prefWidth="446.0"/>
+                        <TextField fx:id="sendMessage" layoutY="326.0" prefHeight="39.0" prefWidth="267.0"/>
+                        <Button layoutX="284.0" layoutY="331.0" mnemonicParsing="false" onAction="#onSend" text="Send">
+                            <font>
+                                <Font name="Bodoni MT" size="15.0"/>
+                            </font>
+                        </Button>
+                        <Button layoutX="353.0" layoutY="333.0" mnemonicParsing="false" text="LogOut" onAction="#onLogOut">
+                            <font>
+                                <Font name="Bodoni MT" size="12.0"/>
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+        <Tab text="Active Users">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="369.0" prefWidth="440.0">
+                    <children>
+                        <ListView fx:id="userList" layoutX="14.0" layoutY="50.0" prefHeight="230.0" prefWidth="112.0"/>
+                        <Label layoutX="14.0" layoutY="25.0" text="Online Users"/>
+                        <Button layoutX="364.0" layoutY="321.0" mnemonicParsing="false" onAction="#onSendPrivateMessage"
+                                prefHeight="10.0" prefWidth="54.0" text="Send">
+                            <font>
+                                <Font name="Bodoni MT" size="16.0"/>
+                            </font>
+                        </Button>
+                        <TextField fx:id="selectedItem" editable="false" layoutX="17.0" layoutY="286.0"
+                                   prefHeight="26.0" prefWidth="128.0"/>
+                        <ListView fx:id="privateMessageList" layoutX="163.0" layoutY="49.0" prefHeight="232.0"
+                                  prefWidth="266.0"/>
+                        <Label layoutX="270.0" layoutY="25.0" text="Messages"/>
+                        <TextField fx:id="sendPrivate" layoutX="171.0" layoutY="286.0" prefHeight="26.0"
+                                   prefWidth="257.0"/>
+                        <Button layoutX="10.0" layoutY="325.0" mnemonicParsing="false" onAction="#onSelectUser"
+                                text="Select User"/>
+                        <Label fx:id="userError" layoutX="133.0" layoutY="329.0" text="Selct a user to send message"/>
+                    </children>
+                </AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
