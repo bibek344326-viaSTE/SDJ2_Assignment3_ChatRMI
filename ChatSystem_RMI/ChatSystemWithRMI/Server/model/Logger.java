@@ -29,9 +29,9 @@ public class Logger {
         return instances.get(currentDate);
     }
 
-    public synchronized void log(String text, String ipAddress) {
+    public synchronized void log(String text) {
         System.out.println("Log file path: " + logFileName);
-        String logEntry = String.format("[%s] [%s] %s%n", new Date(), ipAddress, text);
+        String logEntry = String.format("[%s] [%s] %s%n", new Date());
         System.out.print(logEntry); // Log to console
         writeToFile(logEntry); // Log to file
     }

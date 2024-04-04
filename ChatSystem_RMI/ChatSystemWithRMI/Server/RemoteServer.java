@@ -4,6 +4,7 @@ import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
 import Server.mediator.serverInterfaces.ChatServer;
 import Server.mediator.serverInterfaces.LoginServer;
 import Server.mediator.serverInterfaces.Server;
+import Server.model.Logger;
 
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;
@@ -17,6 +18,7 @@ public class RemoteServer implements Server {
     private LoginServer loginServer;
     private ChatServer chatServer;
     private List<ClientCallBack> allClients;
+    private Logger logger;
 
     public RemoteServer(LoginServer loginServer, ChatServer chatServer) throws AlreadyBoundException, RemoteException {
         this.loginServer = loginServer;
@@ -42,6 +44,7 @@ public class RemoteServer implements Server {
         sendClientTOLoginServer(allClients);
         sendClientTOChatServer(allClients);
         System.out.println("A client is added");
+        logger.log(client.getUsername()+"has logged in.");
     }
 
     @Override
@@ -56,6 +59,7 @@ public class RemoteServer implements Server {
         allClients.remove(clientCallBack);
         sendClientTOChatServer(this.allClients);
         chatServer.isDisconnected(clientCallBack);
+        logger.log(clientCallBack.getUsername()+"has logged out.");
     }
 
     private void sendClientTOLoginServer(List<ClientCallBack> allClients) throws RemoteException {

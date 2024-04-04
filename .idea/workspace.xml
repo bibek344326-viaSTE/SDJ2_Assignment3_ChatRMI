@@ -5,98 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eadbbb5-7d6a-4155-bad3-81cadbcf7476" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/mediator/RemoteClientRmi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/RemoteServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/RunServer_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/mediator/chat/RemoteChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/mediator/login/RemoteLoginServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/clientInterfaces/ClientCallBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/serverInterfaces/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/serverInterfaces/LoginServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/serverInterfaces/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDJ2_Assignment3_ChatRMI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/ChatApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/ChatApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/RunChatApp_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/RunChatApp_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/mediator/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/mediator/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/mediator/ClientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/mediator/ClientFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/mediator/ClientSocket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/model/ChatModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/model/ChatModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/model/ChatModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/model/ChatModelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/model/LoginModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/model/LoginModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/model/LoginModelManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/model/LoginModelManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/model/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/model/ModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/ViewHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/ViewHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/chat/Chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/chat/Chat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/chat/ChatViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/chat/ChatViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/createAccount/CreateAccountViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/createAccount/CreateAccountViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/createAccount/createAccount.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/createAccount/createAccount.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/login/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/login/LoginViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/view/login/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/view/login/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/viewmodel/ChatViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/viewmodel/ChatViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/viewmodel/CreateAccountViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/viewmodel/CreateAccountViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/viewmodel/LoginViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/viewmodel/LoginViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/ClientChatApp/viewmodel/ViewModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/ClientChatApp/viewmodel/ViewModelFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/RunServer_Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/mediator/ConnectionPool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/mediator/ServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/mediator/SocketServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/model/ChatHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/ChatHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/model/ChatHandlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/ChatHandlerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/model/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/model/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/LoginHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/Server/model/LoginHandlerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/LoginHandlerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/MessageList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/MessageList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/PrivateMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/PrivateMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/UserList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/utils/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/utils/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystemWithSockets/shared/utils/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/shared/utils/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/ChatSystem_Sockets.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystem_Sockets.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/ChatApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/ChatApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/RunChatApp_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/RunChatApp_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/mediator/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/mediator/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/mediator/ClientFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/mediator/ClientFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/mediator/ClientSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/mediator/ClientSocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/model/ChatModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/model/ChatModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/model/ChatModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/model/ChatModelManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/model/LoginModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/model/LoginModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/model/LoginModelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/model/LoginModelManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/model/ModelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/model/ModelFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/ViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/ViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/ViewHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/ViewHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/chat/Chat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/chat/Chat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/chat/ChatViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/chat/ChatViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/createAccount/CreateAccountViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/createAccount/CreateAccountViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/createAccount/createAccount.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/createAccount/createAccount.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/login/LoginViewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/login/LoginViewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/view/login/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/view/login/login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/ChatViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/ChatViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/CreateAccountViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/CreateAccountViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/LoginViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/LoginViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/ViewModelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/ClientChatApp/viewmodel/ViewModelFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/RunServer_Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/RunServer_Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/mediator/ConnectionPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/mediator/ConnectionPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/mediator/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/mediator/ServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/mediator/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/mediator/SocketServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/model/ChatHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/model/ChatHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/model/ChatHandlerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/model/ChatHandlerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/model/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/model/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/model/LoginHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/model/LoginHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/Server/model/LoginHandlerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/Server/model/LoginHandlerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/MessageList.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/MessageList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/PrivateMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/PrivateMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/UserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/UserList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/utils/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/utils/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChatSystem_Sockets/out/production/ChatSystem_Sockets/shared/utils/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/out/production/ChatSystem_Sockets/shared/utils/Subject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/RemoteServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/RemoteServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/model/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,22 +122,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712229142412</updated>
-      <workItem from="1712229143501" duration="3512000" />
+      <workItem from="1712229143501" duration="6016000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ChatSystem_RMI/ChatSystemWithRMI/Server/RunServer_Main.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
