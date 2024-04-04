@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.rmi.RemoteException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -29,11 +30,10 @@ public class Logger {
         return instances.get(currentDate);
     }
 
-    public synchronized void log(String text, String ipAddress) {
+    public synchronized void log(String text) throws RemoteException {
         System.out.println("Log file path: " + logFileName);
-        String logEntry = String.format("[%s] [%s] %s%n", new Date(), ipAddress, text);
-        System.out.print(logEntry); // Log to console
-        writeToFile(logEntry); // Log to file
+        System.out.print(text); // Log to console
+        writeToFile(text+"\n"); // Log to file
     }
 
     private void writeToFile(String logEntry) {
