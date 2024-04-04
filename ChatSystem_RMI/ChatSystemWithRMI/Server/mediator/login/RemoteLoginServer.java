@@ -2,8 +2,8 @@ package Server.mediator.login;
 
 import Server.model.LoginHandler;
 import shared.User;
-import shared.clientInterfaces.ClientCallBack;
-import shared.serverInterfaces.LoginServer;
+import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
+import Server.mediator.serverInterfaces.LoginServer;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;

@@ -5,9 +5,9 @@ import Server.mediator.login.RemoteLoginServer;
 import Server.model.ChatHandlerManager;
 import Server.model.LoginHandler;
 import Server.model.LoginHandlerManager;
-import shared.serverInterfaces.ChatServer;
-import shared.serverInterfaces.LoginServer;
-import shared.serverInterfaces.Server;
+import Server.mediator.serverInterfaces.ChatServer;
+import Server.mediator.serverInterfaces.LoginServer;
+import Server.mediator.serverInterfaces.Server;
 
 import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;

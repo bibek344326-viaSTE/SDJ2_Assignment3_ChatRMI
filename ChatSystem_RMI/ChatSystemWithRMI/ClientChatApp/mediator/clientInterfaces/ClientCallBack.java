@@ -1,4 +1,4 @@
-package shared.clientInterfaces;
+package ClientChatApp.mediator.clientInterfaces;
 
 import shared.Message;
 import shared.User;

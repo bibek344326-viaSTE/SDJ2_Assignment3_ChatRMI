@@ -1,8 +1,8 @@
-package shared.serverInterfaces;
+package Server.mediator.serverInterfaces;
 
 import shared.Message;
 import shared.PrivateMessage;
-import shared.clientInterfaces.ClientCallBack;
+import ClientChatApp.mediator.clientInterfaces.ClientCallBack;
 
 import java.io.Serializable;
 import java.rmi.Remote;
